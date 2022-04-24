@@ -3,6 +3,9 @@
     height: calc(100vh - 50px);
     /* Causes y axis to scroll in that area rather than the entire page */
     overflow-y: scroll;
+    position: sticky;
+    /* Keeps items in place when scrolling through a page */
+    top: 50px;
 }
 
 /* Stylizes the scrollbar */
@@ -58,16 +61,3 @@
     list-style: none;
 }
 
-.leftbar-friend {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
-.leftbar-friendImg {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-right: 10px;
-}
