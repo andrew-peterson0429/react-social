@@ -7,7 +7,7 @@ export default function Topbar() {
     <div className='topbar-container'>
 
         <div className="topbar-left">
-          <span className='topbar-logo'>Travellers</span>
+          <span className='topbar-logo'>Travelers</span>
         </div>
 
         <div className="topbar-center">
@@ -43,7 +43,7 @@ export default function Topbar() {
 
           </div>
 
-          <img src="/assets/people/person1.jpg" alt="profile picture" className="topbar-profile-img" />
+          <img src="/assets/people/landon.jpg" alt="profile picture" className="topbar-profile-img" />
           
         </div>
         

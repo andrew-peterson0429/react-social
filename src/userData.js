@@ -21,7 +21,7 @@ export const Users = [
     },
     {
         id:5,
-        profilePicture: "assets/people/person1.jpg",
+        profilePicture: "assets/people/danila.jpg",
         username: "Danila Lubov",
     },
     {
@@ -36,17 +36,17 @@ export const Users = [
     },
     {
         id:8,
-        profilePicture: "assets/people/person1.jpg",
+        profilePicture: "assets/people/lavina.jpg",
         username: "Lavina Paige",
     },
     {
         id:9,
-        profilePicture: "assets/people/person1.jpg",
+        profilePicture: "assets/people/echo.jpg",
         username: "Echo Crawford",
     },
     {
         id:10,
-        profilePicture: "assets/people/person1.jpg",
+        profilePicture: "assets/people/zilla.jpg",
         username: "Zilla Bowie",
     },
 ];
@@ -54,8 +54,8 @@ export const Users = [
 export const Posts = [
     {
         id: 1,
-        desc: "Coding is like going to the gym.",
-        photo: "assets/people/person1.jpg",
+        desc: "I am currently traveling in San Diego right now and my hotel has a gym. This reminded me how coding is like going to the gym. You can't look or code like me if you don't follow this philosophy.",
+        photo: "assets/asia-photo1.jpg",
         date: "Just now",
         userId: 1,
         likes: 13,
@@ -64,7 +64,7 @@ export const Posts = [
     {
         id: 2,
         desc: "Coding is like going to the gym.",
-        photo: "assets/people/person1.jpg",
+        photo: "assets/asia-photo3.jpg",
         date: "10 mins ago",
         userId: 2,
         likes: 13,
@@ -73,7 +73,7 @@ export const Posts = [
     {
         id: 3,
         desc: "Coding is like going to the gym.",
-        photo: "assets/people/person1.jpg",
+        photo: "assets/asia-photo4.jpg",
         date: "30 mins ago",
         userId: 3,
         likes: 13,
@@ -82,7 +82,7 @@ export const Posts = [
     {
         id: 4,
         desc: "Coding is like going to the gym.",
-        photo: "assets/people/person1.jpg",
+        photo: "assets/asia-photo5.jpg",
         date: "45 mins ago",
         userId: 4,
         likes: 13,
@@ -91,7 +91,7 @@ export const Posts = [
     {
         id: 5,
         desc: "Coding is like going to the gym.",
-        photo: "assets/people/person1.jpg",
+        photo: "assets/asia-photo6.jpg",
         date: "1 hour ago",
         userId: 5,
         likes: 13,
@@ -100,7 +100,7 @@ export const Posts = [
     {
         id: 6,
         desc: "Coding is like going to the gym.",
-        photo: "assets/people/person1.jpg",
+        photo: "assets/asia-photo7.jpg",
         date: "2 hours ago",
         userId: 6,
         likes: 13,
@@ -109,7 +109,7 @@ export const Posts = [
     {
         id: 7,
         desc: "Coding is like going to the gym.",
-        photo: "assets/people/person1.jpg",
+        photo: "assets/asia-photo8.jpg",
         date: "3 hours ago",
         userId: 7,
         likes: 13,
@@ -118,7 +118,7 @@ export const Posts = [
     {
         id: 8,
         desc: "Coding is like going to the gym.",
-        photo: "assets/people/person1.jpg",
+        photo: "assets/asia-photo9.jpg",
         date: "4 hours ago",
         userId: 8,
         likes: 13,
@@ -127,7 +127,7 @@ export const Posts = [
     {
         id: 9,
         desc: "Coding is like going to the gym.",
-        photo: "assets/people/person1.jpg",
+        photo: "assets/asia-photo10.jpg",
         date: "5 hours ago",
         userId: 9,
         likes: 13,
@@ -136,7 +136,7 @@ export const Posts = [
     {
         id: 10,
         desc: "Coding is like going to the gym.",
-        photo: "assets/people/person1.jpg",
+        photo: "assets/asia-photo1.jpg",
         date: "6 hours ago",
         userId: 10,
         likes: 13,
