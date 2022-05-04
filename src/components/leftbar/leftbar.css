@@ -1,6 +1,6 @@
 .leftbar {
     flex: 3;
-    height: calc(100vh - 50px);
+    height: 100vh;
     /* Causes y axis to scroll in that area rather than the entire page */
     overflow-y: scroll;
     position: sticky;
@@ -23,7 +23,7 @@
 
 .leftbar-wrapper {
     padding: 20px;
-    background-color: #d6d6d6;
+    background-color: #eaeaea;
     height: 100vh;
 }
 
@@ -49,6 +49,8 @@
     padding: 10px;
     border-radius: 5px;
     font-weight: 700;
+    background-color: #303e2b;
+    color: #fff;
 }
 
 .leftbar-hr {

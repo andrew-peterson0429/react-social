@@ -9,10 +9,10 @@ export default function Rightbar({profile}) {
   const HomeRightBar = () => {
     return (
       <>
-       <div className="birthday-container">
+       <div className="notification-container">
 
-      <img className='birthday-img' src="/assets/notification.png" alt="heart" />
-      <span className="birthday-txt"><b>Recent travel deals</b> and <b>2 other</b> notifications</span>
+      <img className='notification-img' src="/assets/notification.png" alt="heart" />
+      <span className="notification-txt"><b>Recent travel deals</b> and <b>2 other</b> notifications</span>
 
       </div>
 

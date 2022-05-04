@@ -3,6 +3,7 @@ import './leftbar.css';
 import { RssFeed, Chat, PlayCircleFilled, Group, Bookmark, Event } from "@mui/icons-material";
 import Travellers from '../../components/travellers/Travellers';
 import { Users } from "../../userData";
+import {Link} from "react-router-dom";
 
 
 export default function Leftbar() {

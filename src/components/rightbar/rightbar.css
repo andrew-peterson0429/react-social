@@ -6,18 +6,19 @@
     padding: 20px 20px 0 0;
 }
 
-.birthday-container {
+.notification-container {
     display: flex;
     align-items: center;
 }
 
-.birthday-img {
-    width: 40px;
-    height: 40px;
+.notification-img {
+    width: 30px;
+    height: 30px;
     margin-left: 10px;
+    margin-right: 10px;
 }
 
-.birthday-txt {
+.notification-txt {
     font-weight: 300;
     font-size: 15px;
 }

@@ -6,7 +6,7 @@
     top: 0;
     height: 50px;
     width: 100%;
-    background-color: #1354aa;
+    background-color: #4b5c77;
     /* Keeps item on top of everything */
     z-index: 999;
 }
@@ -61,7 +61,7 @@
     color: #fff;
 }
 
-.topbar-links {
+.topbar-link {
     margin-right: 10px;
     font-size: 14px;
     cursor: pointer;

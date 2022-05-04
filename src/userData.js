@@ -142,4 +142,13 @@ export const Posts = [
         likes: 13,
         comments: 5,
     },
+    {
+        id: 11,
+        desc: "My older post.",
+        photo: "assets/asia-photo1.jpg",
+        date: "6 hours ago",
+        userId: 1,
+        likes: 13,
+        comments: 5,
+    },
 ];

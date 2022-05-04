@@ -4,6 +4,7 @@ import Topbar from '../../components/topbar/Topbar';
 import Leftbar from '../../components/leftbar/Leftbar';
 import Feed from '../../components/feed/Feed';
 import Rightbar from '../../components/rightbar/Rightbar';
+import ProfileFeed from '../../components/profile-feed/ProfileFeed';
 
 
 export default function Profile() {
@@ -25,7 +26,7 @@ export default function Profile() {
                 </div>
             </div>
             <div className="profile-right-bottom">
-                <Feed/>
+                <ProfileFeed/>
                 <Rightbar profile/>
             </div>
 
