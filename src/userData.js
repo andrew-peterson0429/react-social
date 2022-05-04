@@ -55,11 +55,11 @@ export const Posts = [
     {
         id: 1,
         desc: "I am currently traveling in San Diego right now and my hotel has a gym. This reminded me how coding is like going to the gym. You can't look or code like me if you don't follow this philosophy.",
-        photo: "assets/asia-photo1.jpg",
+        photo: "assets/body-builder.jpg",
         date: "Just now",
         userId: 1,
-        likes: 13,
-        comments: 5,
+        likes: 0,
+        comments: 0,
     },
     {
         id: 2,

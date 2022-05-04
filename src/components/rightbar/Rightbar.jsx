@@ -11,8 +11,8 @@ export default function Rightbar({profile}) {
       <>
        <div className="birthday-container">
 
-      <img className='birthday-img' src="/assets/heart.png" alt="heart" />
-      <span className="birthday-txt"><b>Paul Cheney</b> and <b>3 others</b> have a birthday today</span>
+      <img className='birthday-img' src="/assets/notification.png" alt="heart" />
+      <span className="birthday-txt"><b>Recent travel deals</b> and <b>2 other</b> notifications</span>
 
       </div>
 
