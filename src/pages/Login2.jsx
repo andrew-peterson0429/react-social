@@ -1,5 +1,5 @@
 import React from 'react'
-import '../app.css';
+
 import Facebook from '../components/images/facebook.png'
 import Google from '../components/images/google.png'
 import Github from '../components/images/github.png'

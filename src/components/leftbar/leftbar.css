@@ -37,6 +37,7 @@
     display: felx;
     align-items: center;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .leftbar-icon {
@@ -51,6 +52,12 @@
     font-weight: 700;
     background-color: #303e2b;
     color: #fff;
+    cursor: pointer;
+}
+
+.leftbar-btn:hover {
+    background-color: #4b5c77;
+    color: #303e2b;
 }
 
 .leftbar-hr {
@@ -62,5 +69,6 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    cursor: pointer;
 }
 

@@ -13,12 +13,12 @@ export default function Leftbar() {
         <ul className="leftbar-list">
 
           <li className='leftbar-listItem'>
-            <RssFeed className='leftbar-icon'/> Feed
+            <Bookmark className='leftbar-icon'/> Saved
             <span className="leftbar-listItem-text"></span>
           </li>
 
           <li className='leftbar-listItem'>
-            <Chat className='leftbar-icon'/> Messages
+            <Event className='leftbar-icon'/> Events
             <span className="leftbar-listItem-text"></span>
           </li>
 
@@ -29,16 +29,6 @@ export default function Leftbar() {
 
           <li className='leftbar-listItem'>
             <Group className='leftbar-icon'/> Groups
-            <span className="leftbar-listItem-text"></span>
-          </li>
-
-          <li className='leftbar-listItem'>
-            <Bookmark className='leftbar-icon'/> Bookmarks
-            <span className="leftbar-listItem-text"></span>
-          </li>
-
-          <li className='leftbar-listItem'>
-            <Event className='leftbar-icon'/> Events
             <span className="leftbar-listItem-text"></span>
           </li>
 

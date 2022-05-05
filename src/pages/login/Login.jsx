@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 import "./login.css"
 
 export default function Login() {
@@ -8,14 +9,14 @@ export default function Login() {
             <div className="login-left">
                 <h3 className="login-logo">Travelers</h3>
                 <span className="login-description">
-                    Connect with Travelers from around the world!
+                    Connecting Digital Nomads from Around the World!
                 </span>
             </div>
             <div className="login-right">
                 <div className="login-box">
-                    <input className='login-input' placeholder="Email" />
-                    <input className='login-input' placeholder="Password" />
-                    <button className="login-button">Login</button>
+                    <input className='login-input' placeholder="iamlando@gmail.com" />
+                    <input className='login-input' placeholder="**********" />
+                    <Link to="/home"><button className="login-btn">Login</button></Link>
                     <span className="login-forgot">Forgot Password?</span>
                     <button className="login-register-button">Create a New Account</button>
                 </div>

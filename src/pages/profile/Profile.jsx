@@ -17,8 +17,8 @@ export default function Profile() {
         <div className="profile-right">
             <div className="profile-right-top">
                 <div className="profile-cover">
-                    <img className='profile-cover-img' src="assets/asia-photo1.jpg" alt="Profile Picture" />
-                    <img className='profile-user-img' src="assets/people/landon.jpg" alt="Profile Picture" />
+                    <img className='profile-cover-img' src="https://images.pexels.com/photos/208745/pexels-photo-208745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Profile Picture" />
+                    <img className='profile-user-img' src="https://avatars.githubusercontent.com/u/1420371?v=4" alt="Profile Picture" />
                 </div>
                 <div className="profile-info">
                     <h4 className='profile-info-name'>Landon Conover</h4>

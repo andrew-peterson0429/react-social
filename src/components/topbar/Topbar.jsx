@@ -8,9 +8,7 @@ export default function Topbar() {
     <div className='topbar-container'>
 
         <div className="topbar-left">
-          <Link to="/" style={{textDecoration:'none'}}>
-            <span className='topbar-logo'>Travelers</span>
-          </Link>
+          <span className='topbar-logo'>Travelers</span>
         </div>
 
         <div className="topbar-center">
@@ -23,8 +21,8 @@ export default function Topbar() {
         <div className="topbar-right">
 
           <div className="topbar-links">
-            <span className="topbar-link">Homepage</span>
-            <span className="topbar-link">Timeline</span>
+            <Link to="/profile" style={{textDecoration:'none'}}><span className="topbar-link">Timeline</span></Link>
+            <Link to="/" style={{textDecoration:'none'}}><span className="topbar-link">Logout</span></Link>
           </div>
 
           <div className="topbar-icons">
@@ -36,12 +34,12 @@ export default function Topbar() {
 
             <div className="topbar-icon-item">
               <Chat/>
-              <span className="topbar-icon-badge">2</span>
+              <span className="topbar-icon-badge">4</span>
             </div>
 
             <div className="topbar-icon-item">
               <Notifications/>
-              <span className="topbar-icon-badge">5</span>
+              <span className="topbar-icon-badge">3</span>
             </div>
 
           </div>

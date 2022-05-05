@@ -1,7 +1,13 @@
 import React from 'react';
 import './rightbar.css';
 import { Users } from "../../userData";
+import { Ads } from "../../data";
 import OnlineTravellers from '../../components/onlineTravellers/OnlineTravellers';
+import AdComponent from '../ad-component/AdComponent';
+import Facebook from '../../components/images/facebook.png'
+import Github from '../../components/images/github.png'
+import Twitter from '../../components/images/twitter.png'
+import { Link } from "react-router-dom"
 
 // Takes prop profile sent by profile page
 export default function Rightbar({profile}) {
@@ -9,14 +15,12 @@ export default function Rightbar({profile}) {
   const HomeRightBar = () => {
     return (
       <>
-       <div className="notification-container">
+      <div className="notification-container">
 
-      <img className='notification-img' src="/assets/notification.png" alt="heart" />
-      <span className="notification-txt"><b>Recent travel deals</b> and <b>2 other</b> notifications</span>
+        <img className='notification-img' src="/assets/notification.png" alt="heart" />
+        <span className="notification-txt"><b>Recent travel deals</b> and <b>2 other</b> notifications</span>
 
       </div>
-
-      <img className='right-bar-ad' src="/assets/uvu-ad.jpg" alt="Ad for UVU" />
 
       <h4 className='right-bar-title'>Online Fellow Travellers</h4>
 
@@ -28,6 +32,10 @@ export default function Rightbar({profile}) {
       ))}
 
       </ul>
+
+      {Ads.map(a => (
+        <AdComponent key={a.id} ad={a}/>
+      ))}
       </>
     )
   }
@@ -35,74 +43,41 @@ export default function Rightbar({profile}) {
   const ProfileRightBar = () => {
     return (
       <>
-        <h4 className='right-bar-title'>Traveller Information</h4>
+        <h4 className='right-bar-title'>Traveler Information</h4>
         <div className="right-bar-info">
           
           <div className="right-bar-info-item">
-            <span className="right-bar-info-key">Nationality: </span>
+            <span className="right-bar-info-key">Nationality:</span>
             <span className="right-bar-info-value">United States</span>
           </div>
 
           <div className="right-bar-info-item">
-            <span className="right-bar-info-key">From: </span>
+            <span className="right-bar-info-key">From:</span>
             <span className="right-bar-info-value">Utah</span>
           </div>
 
           <div className="right-bar-info-item">
-            <span className="right-bar-info-key">Favorite Destination: </span>
+            <span className="right-bar-info-key">Favorite Destination:</span>
             <span className="right-bar-info-value">San Diego</span>
           </div>
 
-          <h4 className='right-bar-title'>Followed Travelers</h4>
-          
-          <div className="right-bar-followed-travellers">
-
-            <div className="right-bar-following">
-              <img src="/assets/people/thor.png" alt="" className="right-bar-following-img" />
-              <span className="right-bar-following-name">Thor Anderson</span>
-            </div>
-
-            <div className="right-bar-following">
-              <img src="/assets/people/paul.jpg" alt="" className="right-bar-following-img" />
-              <span className="right-bar-following-name">Paul Cheney</span>
-            </div>
-
-            <div className="right-bar-following">
-              <img src="/assets/people/andrew.jpg" alt="" className="right-bar-following-img" />
-              <span className="right-bar-following-name">Andrew Peterson</span>
-            </div>
-
-            <div className="right-bar-following">
-              <img src="/assets/people/person1.jpg" alt="" className="right-bar-following-img" />
-              <span className="right-bar-following-name">Danila Lubov</span>
-            </div>
-
-            <div className="right-bar-following">
-              <img src="/assets/people/raine.jpg" alt="" className="right-bar-following-img" />
-              <span className="right-bar-following-name">Raine Peterson</span>
-            </div>
-
-            <div className="right-bar-following">
-              <img src="/assets/people/person1.jpg" alt="" className="right-bar-following-img" />
-              <span className="right-bar-following-name">Moe Peterson</span>
-            </div>
-
-            <div className="right-bar-following">
-              <img src="/assets/people/person1.jpg" alt="" className="right-bar-following-img" />
-              <span className="right-bar-following-name">Lavina Page</span>
-            </div>
-
-            <div className="right-bar-following">
-              <img src="/assets/people/person1.jpg" alt="" className="right-bar-following-img" />
-              <span className="right-bar-following-name">Echo Crawford</span>
-            </div>
-
-            <div className="right-bar-following">
-              <img src="/assets/people/person1.jpg" alt="" className="right-bar-following-img" />
-              <span className="right-bar-following-name">Zilla Bowie</span>
-            </div>
-
+          <div className="right-bar-info-item">
+            <span className="right-bar-info-key">Occupation:</span>
+            <span className="right-bar-info-value">Code Master</span>
           </div>
+
+          <div className="right-bar-info-item">
+            <span className="right-bar-info-key">Coding Languages:</span>
+            <span className="right-bar-info-value">All of them</span>
+          </div>
+
+          <div className="right-bar-info-item">
+            <span className="right-bar-info-key">Socials: </span>
+            <a href='https://github.com/landonconover' className="right-bar-info-value"><img src={Github} alt="social icon" className="right-bar-icon" /></a>
+            <span className="right-bar-info-value"><img src={Facebook} alt="social icon" className="right-bar-icon" /></span>
+            <span className="right-bar-info-value"><img src={Twitter} alt="social icon" className="right-bar-icon" /></span>
+          </div>
+          
 
         </div>
       </>
